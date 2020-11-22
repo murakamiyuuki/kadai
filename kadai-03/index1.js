@@ -8,3 +8,4 @@ if (day % 3 ===0) {
 } else {
     console.log('あなたは冷酷な性格です')
 }
+
