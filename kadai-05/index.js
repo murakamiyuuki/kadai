@@ -1,9 +1,15 @@
 const profile = { 
-    私のnameは :"村上雄基です", 
-    私のageは :"20です",
-    私のhobbyは: "本を読むことです",
-    私のmajorは:"日本史学専攻です"
+    name :"村上雄基", 
+    age :"20",
+    hobby: "本を読むこと",
+    major:"日本史学専攻"
 
 }
+const  keys = Object.keys(profile)
+ console.log(keys)
 
- console.log(profile)
+ for (let index = 0; index <keys.length; index = index+1) {
+     const key = keys[index]
+     const value = profile[key]
+     console.log("私の"+ key+ "は"　+ value + "です。")
+ }
