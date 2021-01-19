@@ -12,13 +12,11 @@
     <button id="omikuji">おみくじを引く</button>
 
     <script>
-        // おみくじを引くボタンのオブジェクトを取得
+         おみくじを引くボタンのオブジェクトを取得
         const omikuji = document.getElementById('omikuji')
 
-        // おみくじボタンにイベントリスナーを追加して、ボタンを押したときの処理を定義
         omikuji.addEventListener('click', () => {
-            // ここでおみくじを引く処理をする
-            // ランダムで結果を表示する
+        
             const luck = Math.random()
             if(luck > 0.9) {
                 alert('大吉です！')
